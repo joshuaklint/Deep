@@ -6,6 +6,6 @@ def add_user():
         username = input('Enter Username: ')
         print('Is the username correct ' + username + '?Y/N')
         confirm = input().upper()
-    os.system('sudo useradd ' + username + '/add')
+    os.system('sudo useradd ' + username + ' /add ')
 
 add_user()
